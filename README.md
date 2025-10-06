@@ -119,13 +119,5 @@ They **notify your application** when something happens, instead of your app con
 
 ---
 
-## 🍎 How kqueue Works (macOS / BSD)
 
-`kqueue` is the **BSD/macOS equivalent** of `epoll`, introduced earlier but with similar goals.
-
-### Steps:
-
-1. **Create a kqueue instance**
-   ```c
-   int kq = kqueue();
 
